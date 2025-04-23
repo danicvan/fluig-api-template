@@ -43,7 +43,17 @@ This is a full-featured template to build **secure REST APIs** with **Spring Boo
 
 ## 📂 Estrutura do Projeto
 
-src/ └── main/ ├── java/ │ └── com/ │ └── boadigital/ │ └── fluigapi/ │ ├── FluigApiApplication.java │ └── controller/ │ └── HealthCheckController.java └── resources/ └── application.properties
+src/ 
+	└── main/ 
+		├── java/ 
+			│ └── com/ 
+			│ 	└── suaempresa/ 
+			│ 		└── fluigapi/ 
+			│ 			├── FluigApiApplication.java 
+			│ 			└── controller/ 
+			│ 				└── HealthCheckController.java 
+			└── resources/ 
+				└── application.properties
 
 ---
 
@@ -60,7 +70,7 @@ src/ └── main/ ├── java/ │ └── com/ │ └── boadigital
 
 ```bash
 # 1. Clone o projeto
-git clone https://github.com/boadigital/fluig-api-template.git
+git clone https://github.com/suaempresaa/fluig-api-template.git
 
 # 2. Entre na pasta
 cd fluig-api-template

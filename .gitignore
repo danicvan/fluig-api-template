@@ -1,3 +1,27 @@
+# Java
+*.class
+*.log
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 /target
 /private_key.pem
 /application.properties
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+*.iml
+.idea/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PEM files (se necessário)
+*.pem
