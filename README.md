@@ -1,8 +1,6 @@
 <h1 align="center">🚀 Fluig API Template</h1>
 <p align="center">
   Spring Boot starter project for deploying secure REST APIs on <strong>TOTVS Fluig</strong>.
-  <br>
-  Projeto base em Spring Boot para criar APIs REST no <strong>Fluig</strong>.
 </p>
 
 <div align="center">
@@ -16,14 +14,6 @@
 
 ---
 
-## 🇧🇷 Sobre o Projeto
-
-Este repositório traz um template completo para criar **APIs REST seguras** utilizando **Spring Boot**, prontas para serem empacotadas como `.war` e instaladas como **componentes backend** no TOTVS **Fluig**.
-
-> Ideal para integrações como DocuSign, SAP, Protheus, entre outros.
-
----
-
 ## 🇺🇸 About this Project
 
 This is a full-featured template to build **secure REST APIs** with **Spring Boot**, pre-configured to deploy as a `.war` on **TOTVS Fluig**.
@@ -32,16 +22,16 @@ This is a full-featured template to build **secure REST APIs** with **Spring Boo
 
 ---
 
-## 🌐 Endpoints disponíveis
+## 🌐 Available Endpoints
 
-| Método | Caminho | Descrição                       |
-| ------ | ------- | ------------------------------- |
-| GET    | `/ping` | Teste básico (retorna ✅)       |
-| GET    | `/`     | Retorna mensagem de boas-vindas |
+| Method | Path   | Description                   |
+|--------|--------|-------------------------------|
+| GET    | `/ping` | Basic test (returns ✅)       |
+| GET    | `/`     | Returns welcome message       |
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 src/ 
 	└── main/ 
@@ -57,7 +47,7 @@ src/
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
 - [Java 11](https://www.oracle.com/java/)
 - [Spring Boot 2.6.3](https://spring.io/projects/spring-boot)
@@ -66,17 +56,17 @@ src/
 
 ---
 
-## ⚙️ Como rodar
+## ⚙️ How to Run
 
 ```bash
-# 1. Clone o projeto
-git clone https://github.com/suaempresaa/fluig-api-template.git
+# 1. Clone the project
+git clone https://github.com/yourcompany/fluig-api-template.git
 
-# 2. Entre na pasta
+# 2. Enter the project directory
 cd fluig-api-template
 
-# 3. Build com Maven
+# 3. Build with Maven
 mvn clean install
 
-# 4. Deploy do .war no Fluig
-```
+# 4. Deploy the .war on Fluig
+
